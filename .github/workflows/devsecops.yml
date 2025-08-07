@@ -52,7 +52,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t myuser/pygoat:test .
+          docker build -t kaleab2708/pygoat:test .
 
       - name: Run Docker Scout CVE Scan
         uses: docker/scout-action@v1
